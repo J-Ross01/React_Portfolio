@@ -22,7 +22,7 @@ function Portfolio() {
                         <p>
                             <a href={project.deployed} target="blank" rel="">Deployed App</a>
                             {' | '}
-                            <a href={project.github} target="blank" rel="">GitHub Repo</a>
+                            <a href={project.github} target="blank" rel="https://github.com/J-Ross01/React_Portfolio">GitHub Repo</a>
                         </p>
                     </div>
                 ))}
