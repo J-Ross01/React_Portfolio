@@ -4,9 +4,9 @@ function Portfolio() {
     const projects = [
         {
             title: "Project 1",
-            image: "link_to_image_of_project_1",
-            deployed: "link_to_deployed_project_1",
-            github: "link_to_github_repo_project_1"
+            image: "",
+            deployed: "",
+            github: ""
         },
         
     ];
@@ -20,9 +20,9 @@ function Portfolio() {
                         <h3>{project.title}</h3>
                         <img src={project.image} alt={project.title} />
                         <p>
-                            <a href={project.deployed} target="_blank" rel="noopener noreferrer">Deployed App</a>
+                            <a href={project.deployed} target="blank" rel="">Deployed App</a>
                             {' | '}
-                            <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+                            <a href={project.github} target="blank" rel="">GitHub Repo</a>
                         </p>
                     </div>
                 ))}
